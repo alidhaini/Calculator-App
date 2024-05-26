@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    margin-top: 3rem;
+    margin-top: 4.2rem;
 }
 header{
     display: flex;
@@ -59,7 +59,7 @@ main{
 .display{
     background-color: var(--screen-bg);
     width: 100%;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
     color: var(--text-color);
     font-size: 32px;
     text-align: end;
@@ -71,13 +71,13 @@ main{
 .keyboard{
     background-color: var(--keypad-bg);
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     border-radius: .5rem;
 }
 .keypad{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
+    gap: 1.3rem;
     margin-bottom: 1rem;
 }
 .digit{
@@ -103,6 +103,11 @@ main{
     box-shadow: inset 0rem -.2rem var(--action-shadow);
     transition: background-color 0.3s;
 }
+.reset,
+.answer{
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
 .clear:hover,
 .reset:hover{
     background-color: var(--reset-and-del-hover);
@@ -113,6 +118,8 @@ main{
     color: var(--ans-white);
     box-shadow: inset 0rem -.2rem var(--equal-and-toggle-shadow);
     transition: background-color 0.3s;
+    font-size: 1.5rem;
+
 }
 .answer:hover{
     background-color: var(--equal-and-toggle-hover);
