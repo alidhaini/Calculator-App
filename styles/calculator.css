@@ -5,13 +5,13 @@ body{
 }
 
 .container{
-    margin-top: 5rem;
+    margin-top: 5.5rem;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    width: 30rem;
+    width: 32rem;
     margin-bottom: 2rem;
     color: var(--text-color);
     font-weight: 700;
@@ -54,7 +54,7 @@ header{
     font-weight: 500;
 }
 main{
-    width: 30rem;
+    width: 32rem;
 }
 .display{
     background-color: var(--screen-bg);
@@ -82,9 +82,9 @@ main{
 }
 .digit{
     background-color: var(--digit-bg);
-    padding: .5rem .5rem .3rem .5rem;
+    padding: .7rem .5rem .5rem .5rem;
     color: var(--dark-text);
-    font-size: 32px;
+    font-size: 40px;
     border-radius: .5rem;
     text-align: center;
     font-weight: 700;
