@@ -5,14 +5,14 @@ body{
 }
 
 .container{
-    margin-top: 4.2rem;
+    margin-top: 5rem;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: end;
     width: 30rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: var(--text-color);
     font-weight: 700;
 }
@@ -59,9 +59,9 @@ main{
 .display{
     background-color: var(--screen-bg);
     width: 100%;
-    padding: 2rem 1.5rem;
+    padding: 2.5rem 1.5rem;
     color: var(--text-color);
-    font-size: 32px;
+    font-size: 3rem;
     text-align: end;
     border-radius: .5rem;
     font-weight: 700;
@@ -70,7 +70,7 @@ main{
 }
 .keyboard{
     background-color: var(--keypad-bg);
-    padding: 1rem;
+    padding: 2rem;
     margin-top: 1.5rem;
     border-radius: .5rem;
 }
@@ -78,7 +78,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
 }
 .digit{
     background-color: var(--digit-bg);
